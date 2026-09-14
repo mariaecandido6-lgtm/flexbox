@@ -9,8 +9,39 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
+
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 3px 0 0 0;
+}
+
+.menu {
+    display:flex;
+    gap: 25px;
+    font-size; 11px;
+    font-weight: bold;
+}
+
+
 p{
     margin-bottom: 19px;
     margin-top: 19px;
@@ -69,4 +100,20 @@ main {
 .card p {
     margin-top: 10px;
     font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    background-color: pink
+    color: white
+}
+
+.card img {
+    width: 100%
+    border-radius: 20px;
+    object-fit: cover;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgb (230, 230, 230);
+
 }
