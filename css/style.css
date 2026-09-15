@@ -1,4 +1,18 @@
-header {
+
+
+  * {
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+  }
+  
+  body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: white;
+   color: black;
+}
+
+  header {
 
     color: black;
     padding: 20px;
@@ -9,11 +23,83 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+p{
+   margin-bottom: 19px;
+   margin-top: 19px;
 }
 
+main {
+   padding: 30px;
+}
+
+#introducao {
+    display: flex;
+   flex-direction: row;
+   gap: 30px;
+   padding: 30px;
+   background-color:rgb(225, 144, 171) ;
+   align-items: center;
+    justify-content: space-between;
+   margin-bottom: 30px;
+
+}
+
+#introducao img {
+   width: 350px;
+   height: 350px;
+   object-fit: cover;
+}
+
+#cards {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.card {
+   background-color: white;
+   padding: 20px;
+   width:30%;
+   border-radius: 20px;
+   text-align: center;
+   border: 1px solid #eee;
+}
+
+.card h2 {
+   margin: 10px 0;
+   font-size: 20px;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 20px;
+   object-fit: cover;
+   height: 700px;
+   object-position: top;
+   background-color: rgb (230, 230, 230);
+}
+
+
+footer {
+   padding: 20px;
+   background-color: pink;
+   color: white;
+}
+
+
 header {
-    background-color: #ffffff;
-    padding: 20px 40px;
+    background-color: white;
+    color: #071f3a;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .cabecalho {
@@ -69,19 +155,6 @@ main {
     margin-bottom: 20px;
 }
 
-
-
-#cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-
-
-
-
 .card {
     background-color: white;
     padding: 20px;
@@ -90,30 +163,13 @@ main {
     text-align: center;
 }
 
-.card img {
-    width: 100%;
-    border-radius: 20px;
-    height: 300px;
-    object-fit: cover;
-}
-
 .card p {
     margin-top: 10px;
-    font-weight: bold;
+      font-size: 14px;
+   line-height: 1.4;
 }
 
 footer {
     padding: 20px;
     background-color: pink
-    color: white
-}
-
-.card img {
-    width: 100%
-    border-radius: 20px;
-    object-fit: cover;
-    height: 300px;
-    object-fit: contain;
-    background-color: rgb (230, 230, 230);
-
 }
